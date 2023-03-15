@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link rel="icon" href="favicon.png" type="image/png">
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -16,18 +16,19 @@
     <title>Coming Soon</title>
     <style>
       body {
-        background-color: #f0ecec;
+        background-color: #d06c34;
         background-size: cover;
         background-position: center center;
         font-family: Arial, sans-serif;
-        color: #3d3d3d;
+        /* color: #3d3d3d; */
+        color:black;
         text-align: center;
       }
 
       h1 {
         font-size: 50px;
         margin-bottom: 20px;
-        text-shadow: 1px 1px #4cff30;
+        text-shadow: 1px 1px #FF5F00;
       }
 
       p {
@@ -57,13 +58,14 @@
       }
 
       a {
-  color: #333;
+  color: #FF5F00;
   text-decoration: none;
   position: relative;
   display: inline-block;
   padding: 5px 10px;
   border-radius: 5px;
-  text-shadow: 1px 1px #4cff30;
+  /* text-shadow: 1px 1px #4cff30; */
+  /* text-shadow: 1px 1px #FF5F00; */
 }
 
 a::before {
@@ -73,7 +75,7 @@ a::before {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #333;
+  background-color: #FF5F00;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -81,6 +83,9 @@ a::before {
 
 a:hover::before {
   transform: scaleX(1);
+}
+a:hover {
+  color: white;
 }
 
 
@@ -90,7 +95,7 @@ a:hover::before {
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="gowearlogo.png" alt="logo" height="50px"></a>
+        <a class="navbar-brand" href="#"><img src="gowearweblogo.png" alt="logo" height="50px"></a>
         <!-- <button
           class="navbar-toggler"
           type="button"
@@ -146,11 +151,11 @@ a:hover::before {
       <p>
         Our website is currently under construction. Please check back soon for
         updates!<br />You can check our Facebook page for additional information:
-        <a href="https://facebook.com/GoWearAu" target="_blank">GoWear</a>
+        <a style="text-shadow: 1px 1px 1px black;"href="https://facebook.com/GoWearAu" target="_blank">GOWEAR</a>
       </p>
     </div>
     <footer class="footer">
-      <div class="container">© 2023 GoWear Pty Ltd</div>
+      <div class="container">© 2023 GOWEAR PTY LTD</div>
     </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
